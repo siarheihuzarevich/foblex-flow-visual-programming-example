@@ -1,1 +1,27 @@
-/* Add application styles & imports to this file! */
+:root {
+    --primary-text: rgba(60, 60, 67);
+    --secondary-text: rgba(60, 60, 67, 0.78);
+    --tertiary-text: rgba(60, 60, 67, 0.56);
+
+    --background-color: #ffffff;
+
+    --gray-soft: rgba(142, 150, 170, 0.14);
+
+    --divider-color: #e2e2e3;
+    --gutter-color: #e2e2e3;
+
+    --primary-1: #3451b2;
+    --primary-3: #5672cd;
+    --primary-soft: rgba(100, 108, 255, 0.14);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
